@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Direction</title>
+  <style>
+    .container {
+      color: rgb(29, 27, 27);
+      border: 5px solid rgb(6, 18, 2);
+      display: inline-flex;
+      flex-direction: column;
+    }
+
+    .container > * {
+      flex-basis: 100px;
+    }
+
+    .yellow-green {
+      background-color: hsl(80, 80%, 61%);
+    }
+
+    .lime-green {
+      background-color: #80f02b;
+    }
+
+    .vivid-green {
+      background-color: #0dc923;
+    }
+
+    .olive-green {
+      background-color: #5ba73a;
+    }
+
+    .emerald-green {
+      background-color: #0ea34e;
+    }
+
+    .dark-green {
+      background-color: #0a7a17;
+    }
+
+    .forest-green {
+      background-color: #025306;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="yellow-green">Yellow green</div>
+    <div class="lime-green">Lime green</div>
+    <div class="vivid-green">Vivid Green</div>
+    <div class="olive-green">Olive green</div>
+    <div class="emerald-green">Emerald Green</div>
+    <div class="dark-green">Dark Green</div>
+    <div class="forest-green">Forest Green</div>
+  </div>
+</body>
+
+</html>
